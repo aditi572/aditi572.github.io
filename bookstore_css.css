@@ -1,0 +1,243 @@
+header{
+ height:200px;
+  padding:20px;
+  background-size: cover;
+}
+
+h1{
+ text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 200%;
+  font-family:Didot;
+  letter-spacing: 1rem;
+  display: block;
+  background-color: black;
+  opacity: 0.8;
+  width:500px;
+}
+
+
+h2{
+  color: #000000;
+  font-variant: small-caps;
+  text-align: center;
+}
+section{
+  background-color: #ffffff;
+  opacity:0.6;
+  display:block;
+  width:1070px;
+  height:220px;
+}
+
+/*<abbr title = "International Olympic Committee">IOC</abbr>  this is to add a link to a word in the middle of a paragraph. */
+
+body{
+  padding:3px;
+  margin: 5px;
+  font-size: 125%;
+  background-image: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+}
+
+/*
+img{
+  width:260px;
+  height:260px;
+  display:inline;
+  margin: 30px;
+  border: 3px solid;
+}
+*/
+section:hover{
+  opacity:0.8;
+}
+
+p{
+  text-align: center;
+  color: #000000;
+
+}
+/* Sub Menus */
+nav li li {
+  font-size: .8em;
+}
+/* Sub Menus */
+nav li ul {
+    display: none;
+    width: 400px;
+}
+
+nav li:hover ul {
+   display: block;
+}
+
+nav li ul li {
+   display: block;
+ }
+/* The side navigation menu */
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover
+ {
+ color: #f1f1f1;
+ }
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span{
+  font-size: 120px;
+  display:block;
+  position: absolute;
+    top: 75px !important;
+    left: 80px !important;
+    color: white;
+}
+
+#one{
+    margin: 5px;
+    border:2px groove black;
+    padding: 5px;
+    width: 5%;
+    display: block;
+    position: absolute;
+    top: 75px !important;
+    right: 100px !important;
+    }
+
+#two{
+  margin: 5px;
+  border:2px groove black;
+  padding: 5px;
+  width: 5%;
+   display: block;
+  position: absolute;
+    top:75px !important;
+    right: 0px !important;
+
+}
+
+div a{
+  color:white;
+}
+div{
+  color:white;
+}
+
+/*
+
+header nav a{
+
+  display:inline-block;
+
+  text-decoration:none;
+
+  color:white;
+
+  font-size:120%;
+
+  padding:0rem;
+
+  border: .1rem outset #ffff66 ;
+
+  border-radius:30px;
+
+  background:rgba(20,20,20, .6);
+
+  margin:1 1.4rem;
+
+  transition: all .4s;
+
+  vertical-align: 10px;
+
+}
+
+nav .active{
+
+  color:black;
+
+  background: rgba(220,220,220, .6);
+
+  box-shadow:2rem 2rem 2rem #ffbb33;
+
+  transform: translate(0, -.5rem);
+
+}
+
+nav:hover .active{
+
+  color:white ;
+
+  background:rgba(20,20,20, .6);
+
+  box-shadow:none;
+
+  transform:none;
+
+}
+
+header nav a:hover, header nav a:hover.active{
+
+color:black;
+
+background:rgba(220,220,220, .6);
+
+box-shadow:2rem 2rem 2rem #ffbb33;
+
+transform:scale(1.1) translate(0, -.5rem) ;
+
+}
+
+header nav a:active, header nav a:active.active{
+
+  box-shadow:1rem 1rem .5rem black;
+
+  transform: translate(0, -.2rem);
+
+}
+
+*/
